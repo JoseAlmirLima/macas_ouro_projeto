@@ -1,0 +1,117 @@
+
+/*CABECALHO*/
+body{
+    background-color: #fafafa;
+}
+  .carousel::before,
+  .carousel::after {
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    width: 40%;
+    height: 10px;
+    box-shadow: 0 5px 14px rgba(0,0,0,.7);
+    z-index: -1;
+    transition: all .3s ease-in-out;
+  }
+  
+  .carousel::before {
+    left: 15px;
+    transform: skew(-5deg) rotate(-5deg);
+  }
+  
+  .carousel::after {
+    right: 15px;
+    transform: skew(5deg) rotate(5deg);
+  }
+  
+  .logo-tipo{
+      border-radius: 50%;
+      width: 10rem;
+  }
+
+    
+  .logoTipo{
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.logoTipo__imagem{
+    border-radius: 50%;
+    width: 10rem;
+}
+
+  .logoTipo__texto{
+      font-family: 'Crafty Girls';
+      color: #E3B545;
+      font-size: 2rem;
+  }
+
+  .sectionNav{
+      display: flex;
+      justify-content: center ;
+      font-family: 'Patrick Hand', cursive;
+      font-size: 1.25rem;
+    
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #a47d7d;
+}
+/*CABECALHO*/
+
+
+.servicos{
+background-color: #fff;
+    margin-top: 40px;
+    padding: 32px;
+
+}
+
+.servicos__titulo{
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    color: #693D3D;
+}
+
+.servicos__cards{
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    padding: 10px;
+}
+
+
+.servicos__img{
+    display: flex;
+    justify-content: center;
+}
+.servicos__subTitulo{
+    text-align: center;
+    color: rgb(126, 126, 126);
+    font-weight: 600;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.20rem;
+}
+
+.servicos__texto{
+    text-align: center;
+    color: rgb(126, 126, 126);
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.rem;
+
+}
+
+.confeitaria__img{
+    display: flex;
+    justify-content: center;
+    width: 22rem;
+    border-radius: 104%;
+    border: 9px solid #eccccc;
+    height: 22rem;
+    object-fit: cover;
+}
+.confeitaria__foto{
+    border-radius: 100%;
+    width: 100%;
+
+}
