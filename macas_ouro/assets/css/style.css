@@ -115,3 +115,31 @@ background-color: #fff;
     width: 100%;
 
 }
+.confeitaria{
+    background-image: url(../img/slide-1.jpeg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: red;
+    padding: 3rem;
+    /* width: 100%; */
+}
+.confeitaria .servicos__texto{   
+    color: #fefefe !important;
+}
+
+.nossaHistoria__resumo{
+    border: 1px solid #e2e2e2;;
+    /* box-shadow: 10px 10px 10px 10px; */
+    padding: 2rem;
+    text-align: justify;
+}
+
+.elogios__card{
+    border: 1px solid red;;
+    /* box-shadow: 10px 10px 10px 10px; */
+    padding: 2rem;
+    text-align: justify;
+
+}

@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Crafty+Girls&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Patrick+Hand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/libs/Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/libs/OwlCarousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/libs/OwlCarousel/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
@@ -182,10 +184,113 @@
             </div>
           </article>
         </section>
+        <section class="nossaHistoria mt-5">
+          <h1 class="servicos__titulo">Nossa história</h1>
+          <figure class="servicos__img mt-3">
+            <img src="./assets/img/sprite-removebg-preview.png">
+          </figure>
+          <p class="servicos__texto"><i>Nossos produtos são feitos com muita dedicação Nossos produtos<br> 
+            são feitos com muita dedicação Nossos produtos são feitos com muita dedicação Nossos produtos são feitos com muita dedicação</i></p>
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <article class="nossaHistoria__resumo">
+                    <p class="servicos__texto">
+                      is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                       Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                       is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                       Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+
+                  </article>
+                </div>
+              </div>
+            </div>
+
+
+        </section>
+        <!-- <section class="video mt-5">
+          <video preload="auto" loop width="500" height="300" muted autoplay>
+            <source src="./assets/img/WhatsApp Video 2021-05-29 at 16.30.07.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </section> -->
+        <section class="elogios mt-5">
+          <h1 class="servicos__titulo">O que dizem sobre a maçãs de ouro</h1>
+          <figure class="servicos__img mt-3">
+            <img src="./assets/img/sprite-removebg-preview.png">
+          </figure>
+          <div class="container">
+            <div class="row d-flex justify-content-center">
+              <div class="col-4">
+            
+                  <div class="owl-carousel owl-theme">
+                    <div class="item">
+                      <div class="elogios__card">
+                        
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="elogios__card">
+                        
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="elogios__card">
+                        
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="elogios__card">
+                        
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="elogios__card">
+                        
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="elogios__card">
+                        
+                      </div>
+                    </div>
+                
+                </div>
+
+              
+              </div>
+            </div>
+          </div>
+     
+        </section>
+        
+        
 
     
 </body>
+
 <script src="./assets/libs/Jquery/jquery.min.js"></script>
+<script src="./assets/libs/OwlCarousel/js/owl.carousel.min.js"></script>
 <script src="./assets/libs/Bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="./assets/libs/Bootstrap/js/bootstrap.min.js"></script>
+
+<script>
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+</script>
 </html>
