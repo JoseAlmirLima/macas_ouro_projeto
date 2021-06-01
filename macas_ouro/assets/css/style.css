@@ -136,10 +136,26 @@ background-color: #fff;
     text-align: justify;
 }
 
-.elogios__card{
-    border: 1px solid red;;
-    /* box-shadow: 10px 10px 10px 10px; */
+.elogios__cardCarousel {
+    border: 1px solid black;
+    box-shadow: 0 5px 14px rgba(0,0,0,.7);
     padding: 2rem;
-    text-align: justify;
+   
 
 }
+
+
+.elogios__card{
+    margin-top:48px
+
+}
+
+
+.circle{
+    border: 1px solid red;
+    border-radius: 78%;
+    width: 7rem;
+    height: 7rem;
+    text-align: center;
+}
+
