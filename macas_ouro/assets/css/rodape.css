@@ -1,0 +1,31 @@
+.rodape{
+    background-color:#b38787;
+}
+
+.rodape__redesSociais{
+    display: flex;
+    justify-content: center;
+    color: #fefefe;
+
+}
+
+.rodape__circulo{
+    border-top: 1px solid;
+    border-radius: 50%;
+    background-color: #b38787;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: -18px;
+}
+
+.rodape__circulo img{
+    position: relative;
+   top: -10px;
+
+}
+
+.rodape p{
+    color: #fefefe;
+
+}

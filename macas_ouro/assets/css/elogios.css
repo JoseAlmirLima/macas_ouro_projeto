@@ -1,0 +1,40 @@
+
+.elogios__cardCarousel {
+   
+
+    padding: 2rem;
+   
+
+}
+.elogios{
+background-image: url(../img/flor.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 3rem;
+}
+
+
+.elogios__card{
+    box-shadow: 0px 0px 16px 5px #00000014;
+    border-radius: 6px;
+    background-color: #ffffffdb;
+
+}
+
+.elogios__cardConteudo{
+    padding:22px
+}
+
+.elogios__texto p{
+    text-align:justify
+
+}
+
+.elogios__texto h4{
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-family: 'Patrick Hand', cursive;
+    color: rgb(70, 70, 70);
+
+}

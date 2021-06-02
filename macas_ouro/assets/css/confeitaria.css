@@ -1,0 +1,32 @@
+.confeitaria__img{
+    background-color: #fefefe;
+    display: flex;
+    justify-content: center;
+    width: 15rem;
+    border-radius: 50%;
+    border: 9px solid #eccccc;
+    height: 15rem;
+    object-fit: cover;
+}
+.confeitaria__foto{
+    border-radius: 100%;
+    width: 100%;
+
+}
+.confeitaria{
+    background-image: url(../img/slide-1.jpeg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: red;
+    padding: 3rem;
+    /* width: 100%; */
+}
+.confeitaria .macas_titulo{
+    color: #fefefe;
+}
+.confeitaria .macas_subtitulos{   
+    color: #fefefe !important;
+}
+

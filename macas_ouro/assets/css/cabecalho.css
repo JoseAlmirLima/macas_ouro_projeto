@@ -1,0 +1,66 @@
+
+  .owl-carousel-cabecalho::before {
+    content: '';
+    position: absolute;
+    bottom: 84px;
+    width: 30%;
+    height: 10px;
+    box-shadow: 0 5px 14px rgba(0,0,0,.7);
+    z-index: -1;
+    transition: all .3s ease-in-out;
+    border-radius: 12px;
+  }
+  
+  .owl-carousel-cabecalho::before {
+    left: 178px;
+    transform: skew(-5deg) rotate(-5deg);
+    border-radius: 12px;
+  }
+  
+  .owl-carousel-cabecalho::after {
+    content: '';
+    position: absolute;
+    bottom: 84px;
+    width: 30%;
+    height: 16px;
+    box-shadow: 0 5px 14px rgb(0 0 0 / 70%);
+    z-index: -1;
+    transition: all .3s ease-in-out;
+    right: 169px;
+    transform: skew(5deg) rotate(5deg);
+    border-radius: 12px;
+  }
+  
+  .logo-tipo{
+      border-radius: 50%;
+      width: 10rem;
+  }
+
+    
+  .logoTipo{
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.logoTipo__imagem{
+    border-radius: 50%;
+    width: 10rem;
+}
+
+  .logoTipo__texto{
+      font-family: 'Crafty Girls';
+      color: #E3B545;
+      font-size: 2rem;
+  }
+
+  .sectionNav{
+      display: flex;
+      justify-content: center ;
+      font-family: 'Patrick Hand', cursive;
+      font-size: 1.25rem;
+    
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #a47d7d;
+}

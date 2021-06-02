@@ -1,0 +1,23 @@
+.servicos{
+    background-color: #fff;
+        padding: 32px;
+    
+    }
+    
+    
+    .servicos__cards{
+        /* border: 1px solid red; */
+        margin-top: 20px;
+        padding: 10px;
+    }
+    
+    
+    
+    .servicos__TituloCard{
+        text-align: center;
+        color: rgb(126, 126, 126);
+        font-weight: 600;
+        font-family: 'Patrick Hand', cursive;
+        font-size: 1.20rem;
+    }
+    
