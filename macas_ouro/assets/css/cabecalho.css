@@ -1,5 +1,67 @@
+.logo-tipo {
+  width: 7rem;
+}
 
-  .owl-carousel-cabecalho::before {
+.logoTipo {
+  display: flex;
+  justify-content: center;
+}
+
+.logoTipo__imagem {
+  width: 7rem;
+  display: flex;
+  justify-content: center;
+}
+
+.logoTipo__texto {
+  font-family: "Crafty Girls";
+  color: #e3b545;
+  font-size: 2rem;
+}
+
+.sectionNav {
+  display: flex;
+  justify-content: center;
+  font-family: "Patrick Hand", cursive;
+  font-size: 1.25rem;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #a47d7d;
+}
+
+.navbar {
+  border: 1px dashed #693D3D
+}
+
+.img-carousel{
+  width: 73% !important;
+  border-radius: 10px;
+}
+
+
+@media (max-width: 991px) {
+  .logo-tipo {
+    width: 5rem;
+}
+
+.navbar {
+  border: none;
+}
+
+.img-carousel{
+  width: 100% !important;
+
+}
+}
+
+@media (max-width: 500px) {
+  .logo-tipo {
+    width: 5rem;
+}
+
+
+
+  /* .owl-carousel-cabecalho::before {
     content: '';
     position: absolute;
     bottom: 84px;
@@ -26,41 +88,8 @@
     box-shadow: 0 5px 14px rgb(0 0 0 / 70%);
     z-index: -1;
     transition: all .3s ease-in-out;
-    right: 169px;
+    right: 176px;
     transform: skew(5deg) rotate(5deg);
     border-radius: 12px;
-  }
-  
-  .logo-tipo{
-      border-radius: 50%;
-      width: 10rem;
-  }
-
-    
-  .logoTipo{
-    display: flex;
-    justify-content: center;
- 
-}
-
-.logoTipo__imagem{
-    border-radius: 50%;
-    width: 10rem;
-}
-
-  .logoTipo__texto{
-      font-family: 'Crafty Girls';
-      color: #E3B545;
-      font-size: 2rem;
-  }
-
-  .sectionNav{
-      display: flex;
-      justify-content: center ;
-      font-family: 'Patrick Hand', cursive;
-      font-size: 1.25rem;
-    
-  }
-  .navbar-light .navbar-nav .nav-link {
-    color: #a47d7d;
+  } */
 }

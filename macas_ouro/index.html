@@ -28,7 +28,7 @@
   <header>
     <div class="container">
       <figure class="logoTipo">
-        <div class="logoTipo__imagem">
+        <div class="logoTipo__imagem mt-5">
           <img class="logo-tipo" src="./assets/img/maca.png">
         </div>
       </figure>
@@ -76,15 +76,15 @@
           </div>
         </nav>
       </section>
-      <div class="owl-carousel-cabecalho owl-carousel owl-theme">
+      <div class="owl-carousel-cabecalho owl-carousel owl-theme mt-3">
         <div class="macas_img">
-          <img src="./assets/img/slide-2.jpeg" style="width:69%; border-radius: 10px;">
+          <img class="img-carousel" src="./assets/img/slide-2.jpeg">
         </div>
         <div class="macas_img">
-          <img src="./assets/img/slide-3.jpeg" style="width:69%; border-radius: 10px;">
+          <img class="img-carousel" src="./assets/img/slide-3.jpeg">
         </div>
         <div class="macas_img">
-          <img src="./assets/img/slide-2.jpeg" style="width:69%; border-radius: 10px;">
+          <img class="img-carousel" src="./assets/img/slide-2.jpeg">
         </div>
 
       </div>
@@ -420,7 +420,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-          <div class="rodape__redesSociais mr-5">
+          <div class="rodape__redesSociais">
             <div class="rodape__circulo">
               <figure class="macas_img mt-3">
                 <img src="./assets/img/apple.svg">
@@ -434,7 +434,7 @@
             </figure>
 
           </div>
-          <div class="rodape__redesSociais mr-5">
+          <div class="rodape__redesSociais">
             <p>&copy; Maças de ouro, site desenvolvido por Almir Lima, 2021.</p>
           </div>
         </div>
@@ -459,7 +459,7 @@
   $('.owl-carousel-elogios').owlCarousel({
     loop: true,
     margin: 10,
-    nav: true,
+    nav: false,
     responsive: {
       0: {
         items: 1
@@ -476,7 +476,7 @@
   $('.owl-carousel-cabecalho').owlCarousel({
     loop: true,
     margin: 10,
-    nav: true,
+    nav: false,
     center: true,
     animateOut: 'fadeOut',
     responsive: {

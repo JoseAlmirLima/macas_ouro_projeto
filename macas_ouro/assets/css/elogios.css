@@ -38,3 +38,11 @@ padding: 3rem;
     color: rgb(70, 70, 70);
 
 }
+
+@media (max-width: 500px)
+{
+
+   .elogios{
+       padding: 3rem 0px;
+   }
+}
